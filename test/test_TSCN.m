@@ -118,4 +118,4 @@ fprintf('Mean SSIM for TSCN: %f \n', mean(ssim_tscn));
 fprintf('Mean IFC for Bicubic: %f \n', mean(ifc_bic)); 
 fprintf('Mean IFC for TSCN: %f \n', mean(ifc_tscn)); 
 
-fprintf('Mean Time for TSN: %f \n', mean(time_tscn));
+fprintf('Mean Time for TSCN: %f \n', mean(time_tscn));
