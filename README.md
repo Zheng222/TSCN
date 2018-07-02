@@ -1,5 +1,18 @@
-# TSCN
+# TSCN <br />
 Code of "Two-Stage Convolutional Network for Image Super-Resolution" (To appear in ICPR 2018)
+
+<p align="center">
+    <img src="files/pipeline.jpg" width="800"> <br />
+    <em> The schematics of the proposed Two-Stage Convolutional Network. </em>
+</p>
+<p align="center">
+    <img src="files/MIF.jpg" width="200"> <br />
+    <em> Architecture of the multipath information fusion module. </em>
+</p>
+<p align="center">
+    <img src="files/execution_time.jpg" width="640"> <br />
+    <em> Speed and accuracy trade-off. (x3 on Set5) </em>
+</p>
 
 ## Run test
 
