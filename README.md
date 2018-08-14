@@ -26,3 +26,16 @@ $ matlab -nodisplay
 The training dataset is 291 images.
 
 The results are stored in "results" folder, with both reconstructed images and PSNR/SSIM/IFCs.
+
+## Citation
+
+If you find IDN useful in your research, please consider citing:
+
+```
+@inproceedings{Hui-TSCN-2018,
+  title={Two-Stage Convolutional Network for Image Super-Resolution},
+  author={Hui, Zheng and Wang, Xiumei and Gao, Xinbo},
+  booktitle={ICPR},
+  year={2018}
+}
+```
