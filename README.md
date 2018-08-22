@@ -1,6 +1,8 @@
 # TSCN <br />
 Code of "Two-Stage Convolutional Network for Image Super-Resolution" (To appear in ICPR 2018)
 
+[Paper](files/TSCN.pdf)
+
 <p align="center">
     <img src="files/pipeline.jpg" width="800"> <br />
     <em> The schematics of the proposed Two-Stage Convolutional Network. </em>
@@ -36,6 +38,7 @@ If you find IDN useful in your research, please consider citing:
   title={Two-Stage Convolutional Network for Image Super-Resolution},
   author={Hui, Zheng and Wang, Xiumei and Gao, Xinbo},
   booktitle={ICPR},
+  pages={2670--2675},
   year={2018}
 }
 ```
