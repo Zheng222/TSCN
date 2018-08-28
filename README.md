@@ -3,6 +3,8 @@ Code of "Two-Stage Convolutional Network for Image Super-Resolution" (To appear 
 
 [Paper](files/TSCN.pdf)
 
+[Poster](files/icpr18_poster.pdf)
+
 <p align="center">
     <img src="files/pipeline.jpg" width="800"> <br />
     <em> The schematics of the proposed Two-Stage Convolutional Network. </em>
