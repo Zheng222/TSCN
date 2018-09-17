@@ -41,6 +41,10 @@ The results are stored in "results" folder, with both reconstructed images and P
 | <sub>DRRN</sub> | <sub>×4</sub> | <sub>31.68/0.8888</sub> | <sub>28.21/0.7721</sub> | <sub>27.38/0.7284</sub> | <sub>**25.44**/0.7638</sub> |
 | <sub>TSCN</sub> | <sub>×4</sub> | <sub>**31.82**/**0.8907**</sub> | <sub>**28.28**/**0.7734**</sub> | <sub>**27.42**/**0.7301**</sub> | <sub>**25.44**/**0.7644**</sub> |
 
+<p align="center">
+    <img src="files/8023.png">
+</p>
+
 ## Citation
 
 If you find TSCN useful in your research, please consider citing:
