@@ -33,7 +33,7 @@ The results are stored in "results" folder, with both reconstructed images and P
 
 ## Citation
 
-If you find IDN useful in your research, please consider citing:
+If you find TSCN useful in your research, please consider citing:
 
 ```
 @inproceedings{Hui-TSCN-2018,
