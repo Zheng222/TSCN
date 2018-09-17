@@ -35,11 +35,11 @@ The results are stored in "results" folder, with both reconstructed images and P
 | <sub>Method</sub> | <sub>Scale</sub> | <sub>Set5</sub> | <sub>Set14</sub> | <sub>B100</sub> | <sub>Urban100</sub> |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | <sub>DRRN</sub> | <sub>×2</sub> | <sub>37.74/0.9591</sub> | <sub>33.23/0.9136</sub> | <sub>32.05/0.8973</sub> | <sub>31.23/0.9188</sub> |
-| <sub>TSCN</sub> | <sub>×2</sub> | <sub>37.88/0.9602</sub> | <sub>33.28/0.9147</sub> | <sub>32.09/0.8985</sub> | <sub>31.29/0.9198</sub> |
-| <sub>DRRN</sub> | <sub>×3</sub> | <sub></sub> | <sub></sub> | <sub></sub> | <sub></sub> |
-| <sub>TSCN</sub> | <sub>×3</sub> | <sub></sub> | <sub></sub> | <sub></sub> | <sub></sub> |
-| <sub>DRRN</sub> | <sub>×4</sub> | <sub></sub> | <sub></sub> | <sub></sub> | <sub></sub> |
-| <sub>TSCN</sub> | <sub>×4</sub> | <sub></sub> | <sub></sub> | <sub></sub> | <sub></sub> |
+| <sub>TSCN</sub> | <sub>×2</sub> | <sub>**37.88**/**0.9602**</sub> | <sub>**33.28**/**0.9147**</sub> | <sub>**32.09**/**0.8985**</sub> | <sub>**31.29**/**0.9198**</sub> |
+| <sub>DRRN</sub> | <sub>×3</sub> | <sub>34.03/0.9244</sub> | <sub>29.96/0.8349</sub> | <sub>**28.95**/0.8004</sub> | <sub>**27.53**/**0.8378**</sub> |
+| <sub>TSCN</sub> | <sub>×3</sub> | <sub>**34.18**/**0.9256**</sub> | <sub>**29.99**/**0.8351**</sub> | <sub>**28.95**/**0.8012**</sub> | <sub>27.46/0.8362</sub> |
+| <sub>DRRN</sub> | <sub>×4</sub> | <sub>31.68/0.8888</sub> | <sub>28.21/0.7721</sub> | <sub>27.38/0.7284</sub> | <sub>**25.44**/0.7638</sub> |
+| <sub>TSCN</sub> | <sub>×4</sub> | <sub>**31.82**/**0.8907**</sub> | <sub>**28.28**/**0.7734**</sub> | <sub>**27.42**/**0.7301**</sub> | <sub>**25.44**/**0.7644**</sub> |
 
 ## Citation
 
