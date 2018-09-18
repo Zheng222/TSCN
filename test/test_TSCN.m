@@ -28,7 +28,7 @@ net=caffe.Net(model,weights,'test');
 test_dataset='Set5';  % Set5 | Set14 | B100 | Urban100
 
 testfolder=['test_data/' test_dataset '/'];
-up_scale=2;  % 2 | 3 | 4
+up_scale = 2;  % 2 | 3 | 4
 
 savepath = 'results/';
 folderResultCur = fullfile(savepath,[test_dataset,'_x',num2str(up_scale)]);
@@ -85,7 +85,7 @@ for i=1:length(filepaths)
     net.reshape();
     net.blobs('data').set_data(im_input); 
     net.forward_prefilled();
-    im_result=net.blobs('sum').get_data();
+    im_result=net.blobs('sum').get_data();  % if test stage-one network, you should modify 'sum' to 'conv8'
     im_h=im_result';
     
     time_tscn(i)=toc;
@@ -127,3 +127,4 @@ fprintf('Mean SSIM for TSCN: %f \n', mean(ssim_tscn));
 fprintf('Mean IFC for Bicubic: %f \n', mean(ifc_bic)); 
 fprintf('Mean IFC for TSCN: %f \n', mean(ifc_tscn)); 
 
+fprintf('Mean Time for TSCN: %f \n', mean(time_tscn));
