@@ -15,6 +15,15 @@ weights='caffemodel/TSCN_x2.caffemodel';
 % weights='caffemodel/TSCN_x3.caffemodel';
 % weights='caffemodel/TSCN_x4.caffemodel';
 
+% if you test stage-one model, please specify the model and weights as follows:
+% model = 'stage_one_x2.prototxt';
+% model = 'stage_one_x3.prototxt';
+% model = 'stage_one_x4.prototxt';
+%
+% weights = 'stage_one_pretrained/stage_one_x2.caffemodel';
+% weights = 'stage_one_pretrained/stage_one_x3.caffemodel';
+% weights = 'stage_one_pretrained/stage_one_x4.caffemodel';
+
 net=caffe.Net(model,weights,'test');
 test_dataset='Set5';  % Set5 | Set14 | B100 | Urban100
 
@@ -118,4 +127,3 @@ fprintf('Mean SSIM for TSCN: %f \n', mean(ssim_tscn));
 fprintf('Mean IFC for Bicubic: %f \n', mean(ifc_bic)); 
 fprintf('Mean IFC for TSCN: %f \n', mean(ifc_tscn)); 
 
-fprintf('Mean Time for TSCN: %f \n', mean(time_tscn));

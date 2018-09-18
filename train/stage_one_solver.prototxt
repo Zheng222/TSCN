@@ -1,0 +1,29 @@
+# The train/test net protocol buffer definition
+net: "stage_one_x2.prototxt" # stage_one_x3.prototxt | stage_one_x4.prototxt
+test_iter:267  # 267(x2) | 231(x3) | 126(x4)
+
+# Carry out testing every 5000 training iterations.
+test_interval:5000
+
+# The base learning rate, momentum and the weight decay of the network.
+type: "Adam"
+base_lr: 0.0001
+weight_decay: 0.0001
+
+# The learning rate policy
+#lr_policy: "fixed"
+lr_policy: "step"
+gamma: 0.1
+stepsize:200000
+
+regularization_type: "L2"
+
+# Display every 500 iterations
+display: 500
+# The maximum number of iterations
+max_iter: 500000
+# snapshot intermediate results
+snapshot: 10000
+snapshot_prefix: "stage_one_x2/stage_one" # stage_one_x3/stage_one | stage_one_x4/stage_one
+# solver mode: CPU or GPU
+solver_mode: GPU
