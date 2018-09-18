@@ -45,6 +45,15 @@ The results are stored in "results" folder, with both reconstructed images and P
     <img src="files/8023.png">
 </p>
 
+## Train
+* step 1: Compile Caffe with `train/include/caffe/layers/l1_loss_layer.hpp`, `train/src/caffe/layers/l1_loss_layer.cpp` and `train/src/caffe/layers/l1_loss_layer.cu`
+* step 2: Run `data_aug.m` to get the augmented 291 dataset
+* step 3: Run `generate_train_TSCN.m` to convert training images to hdf5 file
+* step 4: Run `generate_test_TSCN.m` to convert testing images to hdf5 file for valid model during the training phase
+* step 5: Run `train.sh` to train ×2 model (Manually create directory `caffemodel_x2`)
+
+#### Note: You can train the stage-one model by run `train_stage_one.sh`
+
 ## Citation
 
 If you find TSCN useful in your research, please consider citing:
