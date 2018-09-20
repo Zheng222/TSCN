@@ -1,9 +1,7 @@
 # TSCN <br />
 Code of "Two-Stage Convolutional Network for Image Super-Resolution" (ICPR 2018)
 
-[Paper](files/TSCN.pdf)
-
-[Poster](files/icpr18_poster.pdf)
+[[Paper]](files/TSCN.pdf) [[Poster]](files/icpr18_poster.pdf)
 
 <p align="center">
     <img src="files/pipeline.jpg" width="800"> <br />
